@@ -1,0 +1,14 @@
+<html>
+	<head>
+		<script src="./Point.js"></script>
+		<script>
+			// Test and demonstrate that the various cases from the Point constructor work.
+			const points = [new Point(), new Point([1, 2]), new Point(3, 4)];
+			points.push(new Point(points[1])); // copy-constructor case
+			console.log(points);
+		</script>
+	</head>
+	<body>
+		Check your JavaScript console to see the points that were logged.
+	</body>
+</html>
